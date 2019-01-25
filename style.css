@@ -1,0 +1,47 @@
+body {
+	height: 100vh;
+	width: 100vw;
+	display: block;
+	margin: 0;
+}
+
+/* When writing CSS classes it is VERY important that you use hyphen delimited strings (square-div and NOT squareDiv) */
+/* Addtionally, you should know what the class does just by looking at the name (the name should be DESCRIPTIVE) */
+/* When thinking about sizing elements on your page, there are many different units you can use = https://www.w3schools.com/cssref/css_units.asp */
+.rectangle-div {
+	height: calc(100%/3);
+	width: 100%;
+}
+
+/* When possible, organize CSS classes in alphabetical order */
+.grey {
+	background-color: #757089;
+}
+
+.black {
+	background-color: #000000;
+}
+.boxes {
+	height: 100%;
+	width: calc(100%/3);
+}
+.green {
+	background-color: #9CE1AE;
+}
+.blue {
+	background-color: #3388A7;
+}
+
+/* Use this class on your image to restrict the size so it stays completely within it's parent div */
+.restrict-img-size {
+	max-height: 100%;
+	max-width: 100%;
+}
+.center-content {
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+.opaque {
+	opacity: 0.5;
+}
