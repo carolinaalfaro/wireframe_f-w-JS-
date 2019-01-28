@@ -16,3 +16,8 @@ function beach(el){
 	document.getElementById("middle_picture").src = ("image/middlebeach.PNG");
 	document.getElementById("right_picture").src = ("image/rightbeach.PNG");
 }
+function thunder(el){
+	document.getElementById("left_picture").src = ("image/leftthunder.PNG");
+	document.getElementById("middle_picture").src = ("image/middlethunder.PNG");
+	document.getElementById("right_picture").src = ("image/rightthunder.PNG");
+}
